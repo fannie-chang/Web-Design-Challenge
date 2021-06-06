@@ -25,8 +25,8 @@ h2  {
 
 background: #0ABAB5;
 color:  white !important;
-margin: 0px;
-padding: inherit;
+margin-left: 10px;
+padding: 10px;
 font-weight:  bold;
 font-family:  Helvetica, sans-serif;
 
@@ -79,32 +79,38 @@ table{
 }
 
 
-
-
 h4{
 	color:  black;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: Helvetica, sans-serif;
 	
 	margin-bottom: 10px;
 
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 767px) {
 	.box {   
-    background: lightblue;
+    background: white;
   }
   .navbar-brand{
-  	background-color: seagreen;
+  	background-color: #0ABAB5;
   }
   
   body {
 
-background-color: white;
+background-color: whitesmoke;
 
 
 }
+.navbar {
+	background: #0ABAB5!important;
+	padding: inherit;
+		
+}
 
+ 
 
 
 
